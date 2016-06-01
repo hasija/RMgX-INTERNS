@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<link rel="stylesheet" href="templatemo_style.css" /> 
+
+         
+
+ <head>
+    
+    
+        <title>RMgX</title>
+    </head>
+    <body>
+       
+ <h1><img src="images/logo.png" alt="RMgX">
+        RMgX INTERNS</h1>
+<button class="MyButton" type="button" onclick="window.location.href='yolo.php'">ADD NEW INTERNS</button>
+ 
+        <ul id="navigation">
+        <div id="templatemo_slogan">
+        <p>NEW INTERNS AT RMgX</p>
+        {% for item in navigation %}
+            <p>{{item}}</p>
+
+        {% endfor %}
+        </div>
+        </ul>
+       
+         </body>
+</html>
